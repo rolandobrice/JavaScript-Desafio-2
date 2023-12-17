@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio #2</title>
+    <link rel="stylesheet" href="./assets/style/ejercicio2.css">
+    <link rel="shortcut icon" href="./assets/img/stickers1.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Puede llevar hasta 10 stikers en total</h1>
+    </header>
+
+        <section class="stikers">
+
+            <div class="stiker">
+                <img src="./assets/img/stickers1.png" alt="">
+                <br>
+                <input type="text" value="0" id="sticker-1">
+            </div>
+                
+            <div class="stiker">
+                <img src="./assets/img/stickers2.png" alt="">
+                <input type="text" value="0" id="sticker-2">
+            </div>
+                
+            <div class="stiker">
+                <img src="./assets/img/stickers3.png" alt="">
+                <br>
+                <input type="text" value="0" id="sticker-3">
+            </div>
+
+        </section>
+
+            <div class="parrafo">
+                <p id="aMessage"></p>
+            </div>
+
+            <div class="btn">
+                <button type="button" id="btn" onclick="calcStikers()">Verificar</button>  
+            </div>
+        
+
+    <script src="./assets/javaScript/ejercicio2.js"></script>
+</body>
+</html>

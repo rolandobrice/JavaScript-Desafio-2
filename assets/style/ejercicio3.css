@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h1 {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.opciones {
+    display: flex;
+    justify-content: center;
+}
+
+.opcion {
+    padding: 15px;
+    margin: 10px;
+}
+
+.parrafo {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}

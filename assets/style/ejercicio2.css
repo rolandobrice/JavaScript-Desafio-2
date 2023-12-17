@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h1 {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.stikers {
+    display: flex;
+    justify-content: space-around;
+}
+
+.stiker {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.parrafo {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
